@@ -46,7 +46,7 @@ nav ul {
   padding-left: .25em;
 }
 
-li {
+nav li {
   list-style: none;
   padding: .5em;
 }
@@ -82,6 +82,18 @@ li:hover > a {
     margin: 0 0 1.3rem;
   }
 
+  header {
+    background-color: #18294f;
+    margin: -.5rem;
+  }
+
+  nav li {
+    float: left;
+    width: 50%;
+    background-color: #18294f;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -94,6 +106,11 @@ li:hover > a {
   h1,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  nav li {
+    width: 25%;
+
   }
 
 }
@@ -110,12 +127,36 @@ li:hover > a {
     margin: 0 0 1.5rem;
   }
 
+  header {
+    background-color: #18294f;
+  }
+
+  h1 {
+    float: left;
+    width: 40%;
+    background-color: #18294f;
+    overflow: hidden;
+  }
+
+  nav li {
+    float: right;
+    width: 15%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  h1 {
+    width: 66%;
+  }
+
+  nav li {
+    width: 8.25%;
   }
 
 }
